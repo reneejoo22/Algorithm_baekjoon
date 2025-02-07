@@ -8,8 +8,8 @@ int main() {
 	int c;
 	cin >> c;
 	
-	vector<pair<int, int>> v(c, {0,0});
-	int num;int min = 1000000001;
+	vector<pair<long long, long long>> v(c, {0,0});
+	long num;int min = 1000000001;
 
 	for (int i = 0;i < c - 1;i++) {	
 		cin >> num;
