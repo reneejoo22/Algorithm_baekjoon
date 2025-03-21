@@ -24,17 +24,14 @@ int main() {
 		pq.push(tmp); // cout << tmp<<endl;
 		pq.push(tmp);
 	}
-
 	while (!pq.empty()) {
 		sum += pq.top();
 		pq.pop();
 	}
-
 	cout << sum;
 }
 
 // segment fault_잘못된 메모리를 참조한 후 그 메모리를 해제할 때 발생한다고 한다.
-
 /*
 1 2 3 4
 3 3 3 4
