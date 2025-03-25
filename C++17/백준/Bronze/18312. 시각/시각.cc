@@ -1,11 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 int main(void) {
 
 	int N, K, num = 0;
-
 	cin >> N >> K;
 
 	for (int hour = 0; hour <= N; hour++) {
@@ -18,6 +16,5 @@ int main(void) {
 			}
 		}
 	}
-
 	cout << num;
 }
