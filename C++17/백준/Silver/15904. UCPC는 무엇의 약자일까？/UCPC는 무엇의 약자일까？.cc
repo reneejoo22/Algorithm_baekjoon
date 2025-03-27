@@ -19,7 +19,6 @@ int main() {
 				cout << "I love UCPC";
 				return 0;
 			}
-
 		}
 	}
 
