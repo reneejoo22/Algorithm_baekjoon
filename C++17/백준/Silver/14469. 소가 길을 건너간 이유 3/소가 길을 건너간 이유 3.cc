@@ -20,6 +20,5 @@ int main() {
 		time = max(time, v[i].first);
 		time += v[i].second;
 	}
-
 	cout << time;
 }
