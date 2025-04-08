@@ -31,7 +31,5 @@ int main() {
 		food += pq.top();
 		pq.pop();
 	}
-
 	cout << food;
-
 }
