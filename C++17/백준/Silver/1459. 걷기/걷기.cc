@@ -1,13 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main(){
 
     long long X,Y,W,S;
     cin>>X>>Y>>W>>S;
-
 
     long long case_A = (X+Y)*W;
     long long case_B = min(X,Y)*S;
