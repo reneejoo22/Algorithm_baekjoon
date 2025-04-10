@@ -1,4 +1,4 @@
-// 17420
+// 2891
 #include <iostream>
 #include <vector>
 #include<algorithm>
@@ -32,10 +32,8 @@ int main() {
             }
         }
     }
-
     for (auto now : team) {
         if (now == 0) ans++;
     }
-
     cout << ans<<endl;
 }
