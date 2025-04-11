@@ -1,10 +1,8 @@
 #include <iostream>
 #include <queue>
-
 using namespace std;
 
 #define MAX 100001
-
 int N, K; // N : 수빈이의 위치, K : 동생의 위치
 int visited[MAX] = {};
 
@@ -41,13 +39,10 @@ int bfs() {
             visited[multiPosition] = visited[curPosition] + 1;
         }
     }
-
     return visited[K];
 }
 
 int main() {
     cin >> N >> K;
     cout << bfs();
-
-    return 0;
 }
