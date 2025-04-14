@@ -28,7 +28,5 @@ int main() {
     for (int i = k;i < n;i++) { // 10 ... 5
         ans += gap[i];
     }
-
     cout << ans;
-    return 0;
 }
