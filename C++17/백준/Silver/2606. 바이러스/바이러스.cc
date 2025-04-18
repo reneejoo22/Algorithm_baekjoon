@@ -5,9 +5,8 @@
 using namespace std;
 
 #define max 105
-
-vector<int> v[max];   // 0으로 초기화
-bool visited[max];  // false로 초기화...
+vector<int> v[max]; 
+bool visited[max];  
 int ans = 0;
 
 void DFS(int k) {
@@ -24,21 +23,19 @@ void DFS(int k) {
         }
     }
     return;
-
 }
+
 int main() {
     int n, m;
     cin >> n;
     cin >> m;
 
-    
     for (int i = 0; i < m; i++) {
         int a, b;
         cin >> a >> b;
         v[a].push_back(b);
         v[b].push_back(a);  // 양방향 연결
     }
-
     DFS(1);
     cout << ans;
 }
