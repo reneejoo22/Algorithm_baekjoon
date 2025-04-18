@@ -1,4 +1,5 @@
 # [Silver III] 바이러스 - 2606 
+![image](https://github.com/user-attachments/assets/8bf25683-6828-423f-89dd-a825f9244515)
 
 [문제 링크](https://www.acmicpc.net/problem/2606) 
 
