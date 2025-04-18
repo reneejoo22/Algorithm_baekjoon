@@ -4,23 +4,14 @@
 
 ### 예제
 9
-
 7 3
-
 7
-
 1 2
-
 1 3
-
 2 7
-
 2 8
-
 2 9
-
 4 5
-
 4 6
 <img width="365" alt="제목 없음" src="https://github.com/user-attachments/assets/91249cf0-aad7-4a60-ac65-5b7e6ff231cf" />
 - 7 번 노드에서 3반 노드까지 몇개를 거쳐야하나 세면 됨.
