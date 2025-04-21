@@ -31,7 +31,6 @@ void BFS(int start) {
                 q.push(next);
             }
         }
-
     }
 
 }
