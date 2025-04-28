@@ -20,27 +20,13 @@ int main() {
 
     for (int i = 0; i < n; i++) {
 
-        if (cur < v[i].first) {   // 0   < 1  .... 7 < 8.... 14 <13!!
-            tmp = (v[i].second - v[i].first) / l;  // 1 .... 3
+        int start = max(cur, v[i].first);
+        int len = v[i].second - start;
 
-            if ((v[i].second - v[i].first) % l != 0) {
-                tmp++;     // 2... 4
-            }
-
-            cur = v[i].first + tmp * l;  // 7... 8
-            ans += tmp;
-        }
-
-        
-        else if (cur < v[i].second) {
-            tmp = (v[i].second - cur) / l;  // (17 - 14)/3 = 1
-
-            if ((v[i].second - cur) % l != 0) {
-                tmp++;     // 2... 4
-            }
-
-            cur = cur + tmp * l;  // 14 + 1*3 = 17
-            ans += tmp;
+        if (len > 0) {
+            int need = (len + l - 1) / l;  // len을 l로 나누되 올림(ceil)한 결과
+            ans += need;
+            cur = start + need * l;
         }
 
         /*cout << "cur_" << cur << endl;*/
