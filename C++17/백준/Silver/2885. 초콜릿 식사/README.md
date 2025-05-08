@@ -4,7 +4,7 @@
 
 ---
 [내 풀이]
-비트 마스킹 문제& 그리디 알고리즘
+비트 마스킹 문제& 그리디 알고리즘  
 <img width="385" alt="제목 없음" src="https://github.com/user-attachments/assets/92b01a1f-49c5-4bc3-848a-f0daed6ec4fe" />
 
 ---
