@@ -1,4 +1,5 @@
 # [Gold IV] 수열의 점수 - 2036 
+![image](https://github.com/user-attachments/assets/a0195e43-e22a-4392-9969-0de447456668)
 
 [문제 링크](https://www.acmicpc.net/problem/2036) 
 
