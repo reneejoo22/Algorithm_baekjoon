@@ -1,0 +1,32 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+ 
+using namespace std;
+ 
+vector<int>v[101];
+ 
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+ 
+    int N,cnt=0; cin>>N;
+    for(int i=0; i<N; i++){
+        int a,b; cin>>a>>b;
+        v[a].push_back(b);
+    }
+ 
+ 
+    for(int i=1; i<=10; i++){
+        if(v[i].size()<=1) continue;
+        int first=v[i][0];
+        for(int k=1; k<v[i].size(); k++){
+            if(v[i][k]!=first){
+                cnt++;
+                first=v[i][k];
+            }
+        }
+ 
+    }
+    cout<<cnt;
+}
